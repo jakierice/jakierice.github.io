@@ -35,6 +35,8 @@ html, body {
     color: white;
     font-size: 24px;
     text-align: center;
+    margin: 10px;
+    padding: 5px;
 }
 
 .nav {
@@ -61,15 +63,15 @@ html, body {
 
 .main {
     width: 100%;
-    margin-bottom: 150px;
-
+    margin-bottom: 200px;
+    display: inline-block;
 }
 
 .site-footer {
     border-top: 5px solid black;
     background-color: #e54a35; 
     position: fixed;
-    height: 85px; 
+    height: 65px; 
     left: 0px;
     bottom: 0px;
     width: 100%;
@@ -82,10 +84,10 @@ html, body {
 
 .panel {
     background-color: white;
-    border: 1px solid #695d46;
+    /*border: 1px solid #695d46;*/
     padding: 10px;
     margin: auto;
-    box-shadow: 3px 3px 5px #888888;
+    box-shadow: 3px 8px 28px #888888;
 }
 
 .panel-header {
@@ -122,10 +124,43 @@ html, body {
     width: 28%;
     float: left;
     margin: 0% 5% 2% 0%;
-    /*border-radius: 50%;*/
     box-shadow: 3px 3px 8px #888888;
-    /*border: 7px solid black;*/
     border: 4px solid white;
+}
+
+.project {
+    position: relative;
+    width: 95%;
+    margin: 0px auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    /*float: left;*/
+}
+
+.placeholder-pic {
+    width: 100%;
+    margin: 0px auto;
+    box-shadow: 3px 3px 25px #888888;
+}
+
+.project-title {
+    width: 100%;
+    display: flex;
+    margin: 0px auto;
+    position: absolute;
+    bottom: 10%;
+    left: 0px;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+
+.project-title h3 {
+    width: 100%;
+    margin: 0px auto;
+    padding: 5%;
+    font-size: 1.5em;
+    background-color: #e54a35;
 }
 
 .social {
@@ -141,12 +176,12 @@ html, body {
 }
 
 .social-icon {
-    width: 25%;
+    width: 18%;
     margin-left: 5%;
 }
 
 .social-icon:hover {
-    width: 30%;
+    width: 20%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -180,8 +215,9 @@ html, body {
     }
 
     .panel-header {
-        border-bottom: 1px solid #695d46;
         margin: 2px 5px 10px 2px;
+        border-bottom: 2px solid #695d46;
+        color: #695d46;
     }
 
     .panel-header h2 {
@@ -192,17 +228,49 @@ html, body {
 
     .primary {
         float: left;
-        width: 50%;
-        padding: 10px;
+        width: 55%;
+        text-align: justify;
     }
 
     .primary .panel-header h2 {
         text-align: left;
     }
 
+    .project {
+        position: relative;
+        width: 40%;
+        margin: 4%;
+        float: left;
+    }
+
+    .placeholder-pic {
+        width: 100%;
+        margin: 0px auto;
+        box-shadow: 3px 3px 25px #888888;
+    }
+
+    .project-title {
+        width: 100%;
+        display: flex;
+        margin: 0px auto;
+        position: absolute;
+        bottom: 10%;
+        left: 0px;
+        font-size: 12px;
+        color: white;
+        text-align: center;
+    }
+
+    .project-title h3 {
+        width: 100%;
+        margin: 0px auto;
+        padding: 2px;
+        background-color: #e54a35;
+    }
+
     .social {
         float: left;
-        width: 30%;
+        width: 25%;
         padding: 10px;
     }
 
@@ -212,7 +280,7 @@ html, body {
     }
 
     .social-icon {
-        width: 25%;
+        width: 18%;
         margin-left: 5%;    
     }
 
