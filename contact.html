@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/grid.css">
 </head>
 
 <body>
@@ -27,27 +28,28 @@
     <div class="main">
         <div class="panel primary">
             <div class="panel-header">
-                <h2>About Jakie W. Rice</h2>
+                <h2>Let's Chat</h2>
             </div>
-            <div class="content">
-                <img id="profile-pic" src="assets/images/jakie_profile_1.jpg" alt="Jakie W. Rice" />
-                <p>Jakie W. Rice is the name, Jay-kee Double U Rice is the correct pronunciation. I have lived for an adventure
-                    filled twenty-five years. I share my time on this planet with a beautiful wife, an incredibly brilliant
-                    seven year old son, an English Mastiff (Hank), a Pitbull-Boxer (Waylon), and Pug (Cash). I have been
-                    told that I am the most intensely serious full-grown goofy child in history.</p>
-                <br></br>
-                <p>After six years of dedicated service in the U.S. Army, I started a company with a fellow soldier. Growing
-                    as an entrepreneur has proven to be another phenomenal life adventure.</p>
-                <br></br>
-                <p>I have been developing full-stack web applications since the summer of 2016. I am completely self-taught,
-                    but I have learned a great deal through trial by fire. My company specializes in business technology
-                    and management services for small and medium sized businesses, and there have been occasions where a
-                    bespoke software solution was the best option for a client. I have dedicated many hours to learning how
-                    to build lean, user-friendly, web applications for on those occasions.</p>
-                <br></br>
-                <p>Feel free to contact me through LinkedIn or Github if you'd like to discuss business, web development, or
-                    dogs.
-                </p>
+            <div class="contact-me">
+                <form class="contact-form">
+                    <div class="row">
+                        <!--<label for="firstname">First Name</label>-->
+                        <input type="text" name="firstname" placeholder="First Name">
+                        <!--<label for="lastname">Last Name</label>-->
+                        <input type="text" name="lastname" placeholder="Last name">
+                    </div>
+                    <div class="row">
+                        <!--<label for="email">Email Address</label>-->
+                        <input type="email" name="email" placeholder="Email Address">
+                    </div>
+                    <div class="row">
+                        <!--<label for="message">Message</label>-->
+                        <textarea name="message" rows="5" cols="30" placeholder="Leave a message!"></textarea>
+                    </div>
+                    <div class="row">
+                        <input type="submit">
+                    </div>
+                </form>
             </div>
         </div>
         <div class="panel social">
@@ -58,7 +60,7 @@
                 <a href="https://www.facebook.com"><img class="social-icon" src="assets/images/facebook_icon_black_512.png" alt="Facebook" /></a>
                 <a href="https://www.linkedin.com/in/jakierice/"><img class="social-icon" src="assets/images/linkedin_icon_black_512.png" alt="LinkedIn" /></a>
                 <a href="https://github.com/jakierice"><img class="social-icon" src="assets/images/github_icon_black_512.png" alt="GitHub" /></a>
-                <a href="https://stackoverflow.com/story/jakie-w-rice"><img class="social-icon" src="assets/images/stackoverflow_icon_black_512.png" alt="Stack Overflow"/></a>
+                <a href="https://stackoverflow.com/story/jakie-w-rice"><img class="social-icon" src="assets/images/stackoverflow_icon_black_512.png" alt="Stack Overflow" /></a>
             </div>
         </div>
     </div>
