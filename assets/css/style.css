@@ -1,4 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro|Roboto');*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro|Roboto');
 
 /*Fonts
 ------Fonts-------
@@ -73,7 +73,6 @@ html, body {
 
 .main {
     margin-bottom: 200px;
-    display: inline-block;
 }
 
 .site-footer {
