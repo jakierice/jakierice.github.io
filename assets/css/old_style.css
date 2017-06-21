@@ -1,0 +1,374 @@
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro|Roboto');  */
+
+/*Fonts
+------Fonts-------
+font-family: 'Open Sans', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+
+------Colors-------
+orange color: #e54a35;
+gray (border) color: #695d46;
+SDS Blue color: #27738B;
+*/
+
+html, body {
+    width: 100%;
+    min-height: 100%;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: white;
+    width: 100%;
+    border-bottom: solid 2px black;
+    display: flex;
+    margin: 0px 0px 10px 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#name {
+    background-color: #e54a35;
+    /*float: left;*/
+    /*height: 100%;*/
+}
+
+#name h1 {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+}
+
+.nav {
+    float: right;
+    margin-left: 30%;
+}
+
+.nav a {
+    color: #695d46;
+    text-decoration: none;
+    height: 40px;
+}
+
+.nav a:hover {
+    color: #e54a35;
+    font-size: 18px;
+}
+
+.nav li {
+    margin: 10px;
+    display: inline-block;
+    text-align: right;
+}
+
+.main {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 200px;
+    display: inline-block;
+}
+
+.site-footer {
+    border-top: 5px solid black;
+    background-color: #e54a35; 
+    position: fixed;
+    height: 65px; 
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+}
+
+#copyright {
+    text-align: center;
+    color: white;
+}
+
+.panel {
+    background-color: white;
+    padding: 10px;
+    margin: 4%;
+    box-shadow: 3px 8px 28px #888888;
+    display: inline-block;
+}
+
+.panel-header {
+    border-bottom: 1px solid #695d46;
+    margin: 2px 5px 10px 2px;
+}
+
+.panel-header h2 {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 10px;
+}
+
+.primary {
+    /*float: left;*/
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 5%;
+}
+
+.primary .panel-header h2 {
+    text-align: left;
+}
+
+.content {
+    padding: 5%;
+}
+
+.content p {
+    display: inline;
+}
+
+#profile-pic {
+    width: 28%;
+    float: left;
+    margin: 0% 5% 2% 0%;
+    box-shadow: 3px 3px 21px #888888;
+    border: 4px solid white;
+}
+
+.project {
+    position: relative;
+    width: 95%;
+    margin: 0px auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    /*float: left;*/
+}
+
+.placeholder-pic {
+    width: 100%;
+    margin: 0px auto;
+    box-shadow: 3px 3px 25px #888888;
+}
+
+.project-title {
+    width: 100%;
+    display: flex;
+    margin: 0px auto;
+    position: absolute;
+    bottom: 10%;
+    left: 0px;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+
+.project-title h3 {
+    width: 100%;
+    margin: 0px auto;
+    padding: 5%;
+    font-size: 1.5em;
+    background-color: #e54a35;
+}
+
+input[type="text"], [type="email"] {
+    width: 96%;
+    margin: 2%;
+    box-sizing: border-box; 
+    border: none;
+    box-shadow: 0px 3px 10px #e2e2e2 inset;
+    border-radius: 3px;
+    padding: 7px;
+    outline: none;
+}
+
+
+textarea {
+    width: 96%;
+    margin: 2%;
+    box-sizing: border-box;
+    border: none;
+    box-shadow: 0px 3px 25px #e2e2e2 inset;
+    border-radius: 3px;
+    padding: 7px;
+    outline: none;
+}
+
+input[type="submit"] {
+    width: 33.33%;
+    margin: 2% 33.33%;
+    padding: 2%;
+    float: right;
+    border: 0px;
+    box-shadow: 3px 3px 10px #888888;
+    background-color: #e54a35;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+.social {
+    width: 50%;
+    margin: 5% 25% 5% 25%;
+    padding: 2%;
+}
+
+#icons {
+    width: 90%;
+    margin: auto;
+}
+
+.social-icon {
+    width: 18%;
+    margin-left: 5%;
+}
+
+.social-icon:hover {
+    width: 20%;
+}
+
+@media only screen  and (max-width : 980px) {
+
+    #name {
+        background-color: #e54a35;
+        float: left;
+        margin-left: 15%;
+    }
+
+    #name h1 {
+        color: white;
+        text-align: center;
+        margin: 5px 10px;
+    }
+
+    .nav {
+        float: right;
+        margin-left: 30%;
+    }
+
+    .nav li { 
+        display: inline;
+        margin: 10px;
+    }
+
+    .panel {
+        border: 1% solid #695d46;
+        padding: 10px;
+        margin: 3%;
+    }
+
+    .panel-header {
+        margin: 2px 5px 10px 2px;
+        border-bottom: 2px solid #695d46;
+        color: #695d46;
+    }
+
+    .panel-header h2 {
+        text-align: center;
+        font-family: 'Source Sans Pro', sans-serif;
+        margin: 10px;
+    }
+
+    .primary {
+        float: left;
+        width: 55%;
+        text-align: justify;
+    }
+
+    .primary .panel-header h2 {
+        text-align: left;
+    }
+
+    .portfolio .row {
+        display: inline-block;
+    }
+
+    .project {
+        position: relative;
+        width: 40%;
+        margin: 5%;
+        float: left;
+    }
+
+    .placeholder-pic {
+        width: 100%;
+        margin: 0px auto;
+        box-shadow: 3px 3px 25px #888888;
+    }
+
+    .project-title {
+        width: 100%;
+        display: flex;
+        margin: 0px auto;
+        position: absolute;
+        bottom: 10%;
+        left: 0px;
+        font-size: 12px;
+        color: white;
+        text-align: center;
+    }
+
+    .project-title h3 {
+        width: 100%;
+        margin: 0px auto;
+        padding: 2px;
+        background-color: #e54a35;
+    }
+
+    input[type="text"], [type="email"] {
+        width: 45%;
+        margin: 2%;
+        box-sizing: border-box; 
+        border: none;
+        box-shadow: 0px 3px 10px #e2e2e2 inset;
+        border-radius: 3px;
+        padding: 7px;
+        outline: none;
+    }
+
+    input[type="submit"] {
+        width: 20%;
+        margin: 2%;
+        padding: 2%;
+        float: right;
+        border: 0px;
+        box-shadow: 3px 3px 10px #888888;
+        background-color: #e54a35;
+        color: white;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: bold;
+    }
+
+    textarea {
+        width: 96%;
+        margin: 2%;
+        box-sizing: border-box;
+        border: none;
+        box-shadow: 0px 3px 25px #e2e2e2 inset;
+        border-radius: 3px;
+        padding: 7px;
+        outline: none;
+    }
+
+    .social {
+        float: left;
+        width: 25%;
+        padding: 10px;
+    }
+
+    #icons {
+        width: 90%;
+        margin: auto;
+    }
+
+    .social-icon {
+        width: 18%;
+        margin-left: 5%;    
+    }
+
+}
+
+@media only screen  and (max-width : 768px) {
+
+}
+
+@media only screen  and (max-width : 640px) {
+
+}
